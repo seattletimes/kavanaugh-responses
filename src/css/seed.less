@@ -3,3 +3,63 @@
 main.interactive {
   max-width: 960px;
 }
+
+#btn1,#btn2,#btn3,#btn4,#btn5,#btn6,#btn7,#btn8   {
+		display:none;
+	}
+
+.block {
+	margin:40px auto;
+	width:500px;
+	max-width: 640px;
+	border-bottom:1px solid gray;
+	padding-bottom:40px;
+}
+	
+
+	.excerpt {
+		background: RGBa(255,255,0,0.3);
+	    cursor: pointer;
+	    transition: 0.25s ease;
+	 	border: 5px solid transparent;
+	    text-align: center;
+	    z-index:1;
+	    font-family: serif;
+	    font-size: 30px;
+	    font-weight:bold;
+	    font-style:italic;
+	    line-height:1.55em;
+	    hanging-punctuation: first;
+
+
+	}
+
+	.excerptInline {
+		background: RGBa(255,255,0,0.3);
+	}
+
+	.excerpt:hover {
+		border-color: RGBa(0,0,0,0.2);
+	}
+	.excerpt:active {
+		background: RGBa(0,0,0,0.2);
+	}
+
+	input:checked ~ .responses {
+		display:block;
+		opacity:1;
+		transition: 0.5s ease;
+	}
+
+	input:checked + .excerpt {
+		display: none;
+	}
+
+	.responses {
+		padding-top:20px;
+		display:none;
+		opacity:0;
+		background:white;
+		z-index:999;
+		transition: 0.5s ease;
+	}
