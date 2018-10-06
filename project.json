@@ -1,0 +1,20 @@
+{
+  "s3": {
+    "stage": {
+      "bucket": "projects-staging.seattletimes.com",
+      "path": "agilely-pointless"
+    },
+    "live": {
+      "bucket": "projects.seattletimes.com",
+      "path": "2018/local/kavanaugh-responses"
+    }
+  },
+  "title": "",
+  "description": "",
+  "url": "",
+  "image": "assets/social.jpg",
+  "sheets": ["1Fm2oAEUrdRNnjErmq31FuN9tk_MPq2Mk_2dOpkDcyNs"],
+  "standout": false,
+  "embedded": true,
+  "production": true
+}
